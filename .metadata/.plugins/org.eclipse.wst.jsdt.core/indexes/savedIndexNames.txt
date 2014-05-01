@@ -1,6 +1,0 @@
-INDEX VERSION 1.122+/Users/v-mudrak-8l/Documents/Personal/brihat/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1057345152.index
-2243087125.index
-2974317927.index
-2276496472.index
-96366054.index

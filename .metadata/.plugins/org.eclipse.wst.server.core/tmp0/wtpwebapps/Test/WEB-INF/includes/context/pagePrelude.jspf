@@ -1,4 +1,0 @@
-<%@ include file="/WEB-INF/includes/context/taglibs.jspf" %>
-<%-- <%@ include file="/WEB-INF/includes/context/context.jspf" %> --%>
-
-<%@ page contentType="text/html; charset=UTF-8" %>

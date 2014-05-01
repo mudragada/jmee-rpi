@@ -1,8 +1,0 @@
-127.0.0.1 - - [25/Apr/2014:15:16:00 -0400] "GET / HTTP/1.1" 404 951
-0:0:0:0:0:0:0:1 - - [25/Apr/2014:15:16:02 -0400] "GET /Test/ HTTP/1.1" 200 602
-0:0:0:0:0:0:0:1 - - [25/Apr/2014:15:16:04 -0400] "POST /Test/web/testPersonBean.jsp HTTP/1.1" 200 521
-0:0:0:0:0:0:0:1 - - [25/Apr/2014:15:16:08 -0400] "POST /Test/web/testPersonBean.jsp HTTP/1.1" 200 520
-0:0:0:0:0:0:0:1 - - [25/Apr/2014:15:16:13 -0400] "POST /Test/web/testPersonBean.jsp HTTP/1.1" 200 524
-0:0:0:0:0:0:0:1 - - [25/Apr/2014:15:16:25 -0400] "POST /Test/web/testPersonBean.jsp HTTP/1.1" 200 524
-0:0:0:0:0:0:0:1 - - [25/Apr/2014:15:16:30 -0400] "GET /Test/ HTTP/1.1" 200 598
-0:0:0:0:0:0:0:1 - - [25/Apr/2014:15:16:34 -0400] "POST /Test/testPersonBean.jsp HTTP/1.1" 404 997

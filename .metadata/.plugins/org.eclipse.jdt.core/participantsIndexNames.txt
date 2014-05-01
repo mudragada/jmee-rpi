@@ -1,7 +1,0 @@
-INDEX VERSION 1.126
-/Users/v-mudrak-8l/Documents/Personal/brihat/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1057345152.index
-/Test/src
-/Users/v-mudrak-8l/Documents/Personal/brihat/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2397328702.index
-/Test/src
-/Users/v-mudrak-8l/Documents/Personal/brihat/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1963554115.index
-/WebCommon/src/main/resources
