@@ -27,7 +27,7 @@ public class CounterDevice extends Thread {
     }
     @Override
     public void run() {
-        count = -1;
+        resetCounter();
         while (shouldRun) {
             System.out.println("Current count..." + (++count));
             if (count == trigger) {
@@ -38,7 +38,7 @@ public class CounterDevice extends Thread {
             }
             // Reset the count over 10
             if (count > 9) {
-                count = -1;
+                resetCounter();
             }
             try {
                 sleep(2000);
@@ -51,5 +51,9 @@ public class CounterDevice extends Thread {
     public void stop() {
         shouldRun=false;
         interrupt();
+    }
+    private void resetCounter()
+    {
+        count = -1;
     }
 }
