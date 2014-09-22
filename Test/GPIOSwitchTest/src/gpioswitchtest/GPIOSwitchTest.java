@@ -1,14 +1,9 @@
-/* Copyright © 2014, Oracle and/or its affiliates. All rights reserved. */
 package gpioswitchtest;
 
 import java.io.IOException;
 import javax.microedition.midlet.MIDlet;
 import jdk.dio.DeviceNotFoundException;
 
-/**
- *
- * @author Angela
- */
 public class GPIOSwitchTest extends MIDlet {
 
   GPIOSwitch pinTest;
