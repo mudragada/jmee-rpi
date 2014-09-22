@@ -1,4 +1,3 @@
-/* Copyright © 2014, Oracle and/or its affiliates. All rights reserved. */
 package gpioswitchtest;
 
 import java.io.IOException;
@@ -14,7 +13,6 @@ import jdk.dio.gpio.PinListener;
  * This class is use to create a pin for input (a switch in our case) and to
  * listen to the in changes of the pin value
  *
- * @author Angela
  */
 public class GPIOSwitch implements PinListener {
 
