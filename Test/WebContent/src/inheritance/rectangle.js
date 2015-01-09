@@ -1,3 +1,4 @@
+//Shape Class Definition Start
 function Shape(){}
 
 Shape.prototype.X = 0;
@@ -16,11 +17,13 @@ Shape.prototype.area = function () {
   throw new Error("Need a 2d form!");
 }
 
+//Shape Class Definition End
+
 var newShape = new Shape();
 newShape.move(10,10);
 console.log("Moved by distance " + Shape.prototype.distance_from_origin());
 
-// Derived Class
+// Derived Class Square
 function Square(){
 
 }

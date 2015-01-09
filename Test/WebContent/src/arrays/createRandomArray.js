@@ -1,28 +1,19 @@
 var fs = require('fs');
 
-var numbers = [];
-function createRandomArray(err, number){
+var number = [];
+function createRandomArray(num){
   var high = 100000;
   var low = 1;
-  for (var i = 0; i< 10000; i++){
+  for (var i = 0; i<num ; i++){
    number.push(Math.floor(Math.random()*(high-low +1 ) + low));
-    //numbers.push(randomIntInc(1,100000));
   }
+};
+createRandomArray(1000000);
 
-  if(number != null){
-   console.log("Printing number array");
-  }
-  else
-    console.log(err);
-}
-
-var randArray = new createRandomArray("Unable to create array", numbers);
-
-var numberArray = Object.keys(numbers);
-
-var file = fs.createWriteStream("arrays.js");
-numberArray.forEach(function(item) { console.log(v);file.write(v.join(',')); });
-file.end();
+//console.log(number);
+fs.writeFile('./arrays.js',number.map(function(v){ return v}),function (err) {
+        console.log('ok');
+    });
 
 
 
