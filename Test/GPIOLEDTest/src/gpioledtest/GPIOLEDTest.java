@@ -1,4 +1,3 @@
-/* Copyright © 2014, Oracle and/or its affiliates. All rights reserved. */
 package gpioledtest;
 
 import java.io.IOException;
@@ -7,10 +6,6 @@ import java.util.logging.Logger;
 import javax.microedition.midlet.MIDlet;
 import jdk.dio.DeviceNotFoundException;
 
-/**
- *
- * @author Angela Caicedo
- */
 public class GPIOLEDTest extends MIDlet {
 
   GPIOLED pinTest;

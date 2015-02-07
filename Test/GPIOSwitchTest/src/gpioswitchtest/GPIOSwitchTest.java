@@ -8,9 +8,6 @@ public class GPIOSwitchTest extends MIDlet {
 
   GPIOSwitch pinTest;
 
-  /**
-   * Imlet lifecycle start method
-   */
   @Override
   public void startApp() {
 

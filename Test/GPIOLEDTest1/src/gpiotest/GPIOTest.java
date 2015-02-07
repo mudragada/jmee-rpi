@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package gpiotest;
 import constants.GPIOPinConstants;
@@ -18,10 +13,6 @@ import jdk.dio.gpio.GPIOPinConfig;
 import jdk.dio.gpio.PinEvent;
 import jdk.dio.gpio.PinListener;
 
-/**
- *
- * @author v-mudrak-8L
- */
 public class GPIOTest extends MIDlet {
     private GPIOPin gLED;
     private final int ledID = GPIOPinConstants.GPIO23;

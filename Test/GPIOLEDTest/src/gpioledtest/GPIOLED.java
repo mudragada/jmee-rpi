@@ -1,4 +1,3 @@
-/* Copyright © 2014, Oracle and/or its affiliates. All rights reserved. */
 package gpioledtest;
 
 import java.io.IOException;
@@ -6,10 +5,6 @@ import jdk.dio.DeviceManager;
 import jdk.dio.DeviceNotFoundException;
 import jdk.dio.gpio.GPIOPin;
 
-/**
- *
- * @author Angela
- */
 public class GPIOLED {
 
   //Pin where the LED is connected. Be default we are using Pin 23.

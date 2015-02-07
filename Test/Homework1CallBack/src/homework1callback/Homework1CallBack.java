@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package homework1callback;
 
@@ -11,10 +6,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 import javax.microedition.midlet.MIDlet;
 
-/**
- *
- * @author v-mudrak-8l
- */
 public class Homework1CallBack extends MIDlet implements FiveMinuteListener{
     private final int fiveMinutes = 5*60*1000;
     private final int delayTime = 30*1000;

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package homework1;
 
@@ -10,10 +5,6 @@ import java.util.Calendar;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- *
- * @author v-mudrak-8l
- */
 public class Fiver extends TimerTask {
     private Dimer halfMinThread;
     private Timer myTimer;

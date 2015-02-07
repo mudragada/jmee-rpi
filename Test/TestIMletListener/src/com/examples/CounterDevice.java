@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package com.examples;
 
@@ -10,7 +5,7 @@ import java.util.*;
 
 /**
  *
- * @author v-mudrak-8L
+ * @author chaitanyamudragada
  */
 public class CounterDevice extends Thread {
     private List<CounterListener> listeners;

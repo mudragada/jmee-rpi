@@ -9,11 +9,6 @@ import jdk.dio.gpio.GPIOPinConfig;
 import jdk.dio.gpio.PinEvent;
 import jdk.dio.gpio.PinListener;
 
-/**
- * This class is use to create a pin for input (a switch in our case) and to
- * listen to the in changes of the pin value
- *
- */
 public class GPIOSwitch implements PinListener {
 
   //Switch GPIO Port.  Default value 0
